@@ -32,9 +32,9 @@ public class ListFragment extends Fragment {
                 Navigation.findNavController(itemView).navigate(R.id.show_item_detail, args);
             }
             else {
-            // Show details on the right
-            Navigation.findNavController(detailFragmentContainer)
-                    .navigate(R.id.fragment_detail, args);
+                // Show details on the right
+                Navigation.findNavController(detailFragmentContainer)
+                        .navigate(R.id.fragment_detail, args);
             }
         };
 
